@@ -11,6 +11,7 @@ class RadioGroupWrapper extends Component {
     return {
       reactFormGroup: {
         ...this.props.fieldApi,
+        value: this.props.value,
         onChange: this.props.onChange,
         onBlur: this.props.onBlur,
       },
